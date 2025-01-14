@@ -18,7 +18,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
           <div className="space-y-4 text-gray-700 dark:text-gray-300">
             <p>
-              Hello! I'm <span className="font-medium">SaitamaCoder</span>, a passionate blockchain developer from Ho Chi Minh City, Vietnam. I have a strong enthusiasm for Web3 technology and enjoy working on creative projects that combine technical expertise with innovation.
+              Hello! I&apos;m <span className="font-medium">SaitamaCoder</span>, a passionate blockchain developer from Ho Chi Minh City, Vietnam. I have a strong enthusiasm for Web3 technology and enjoy working on creative projects that combine technical expertise with innovation.
             </p>
 
             <p>
@@ -26,11 +26,11 @@ export default function Home() {
             </p>
 
             <p>
-              Alongside my technical work, I'm committed to contributing to the blockchain community through open-source projects like DragonSoulBoundNFT, aimed at enhancing user identity and interaction in the Web3 ecosystem.
+              I&apos;m committed to contributing to the blockchain community through open-source projects like DragonSoulBoundNFT, aimed at enhancing user identity and interaction in the Web3 ecosystem.
             </p>
 
             <p>
-              In my free time, I enjoy reading books and listening to music to recharge and maintain creativity. I'm always excited to collaborate on new ideas and connect with like-minded individuals who share my vision for the future of blockchain technology.
+              In my free time, I enjoy reading books and listening to music to recharge and maintain creativity. I&apos;m always excited to collaborate on new ideas and connect with like-minded individuals who share my vision for the future of blockchain technology.
             </p>
           </div>
         </section>
