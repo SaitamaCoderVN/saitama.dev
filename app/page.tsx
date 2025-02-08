@@ -38,6 +38,14 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-bold mb-4">Contact</h2>
           <div className="flex space-x-6 justify-center">
+            <a href="https://t.me/SaitamaCoderVN" 
+               className="px-4 py-2 bg-primary text-white rounded-full hover:scale-110 transition-transform duration-300">
+              💬 Telegram
+            </a>
+            <a href="https://x.com/SaitamaCoder_VN" 
+               className="px-4 py-2 bg-primary text-white rounded-full hover:scale-110 transition-transform duration-300">
+              🐦 X
+            </a>
             <a href="mailto:coderhopham@gmail.com" 
                className="px-4 py-2 bg-primary text-white rounded-full hover:scale-110 transition-transform duration-300">
               ✉️ Email
