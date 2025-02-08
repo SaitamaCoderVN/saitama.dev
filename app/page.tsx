@@ -1,4 +1,5 @@
 import Achievements from "@/components/Achievements";
+import Contact from "@/components/Contact";
 import Education from "@/components/Education";
 import FlipAvatar from "@/components/FlipAvatar";
 import PastimeAndActivities from "@/components/Partime-and-activitice";
@@ -35,31 +36,7 @@ export default function Home() {
 
         <PastimeAndActivities />
 
-        <section>
-          <h2 className="text-2xl font-bold mb-4">Contact</h2>
-          <div className="flex space-x-6 justify-center">
-            <a href="https://t.me/SaitamaCoderVN" 
-               className="px-4 py-2 bg-primary text-white rounded-full hover:scale-110 transition-transform duration-300">
-              💬 Telegram
-            </a>
-            <a href="https://x.com/SaitamaCoder_VN" 
-               className="px-4 py-2 bg-primary text-white rounded-full hover:scale-110 transition-transform duration-300">
-              🐦 X
-            </a>
-            <a href="mailto:coderhopham@gmail.com" 
-               className="px-4 py-2 bg-primary text-white rounded-full hover:scale-110 transition-transform duration-300">
-              ✉️ Email
-            </a>
-            <a href="https://github.com/SaitamaCoderVN" 
-               className="px-4 py-2 bg-secondary text-white rounded-full hover:scale-110 transition-transform duration-300">
-              🐱 GitHub
-            </a>
-            <a href="https://linkedin.com/in/anhitshare" 
-               className="px-4 py-2 bg-accent text-gray-800 rounded-full hover:scale-110 transition-transform duration-300">
-              💼 LinkedIn
-            </a>
-          </div>
-        </section>
+        <Contact />
       </main>
     </div>
   );
