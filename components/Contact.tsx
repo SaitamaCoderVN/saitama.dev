@@ -35,14 +35,15 @@ const Contact = () => {
   return (
     <section>
       <h2 className="text-2xl font-bold mb-4">Contact</h2>
-      <div className="flex space-x-6 justify-center">
+      <div className="flex flex-wrap gap-4 justify-center">
         {socialLinks.map((link) => (
           <a
             key={link.label}
             href={link.href}
-            className={`px-4 py-2 ${link.className} text-white rounded-full hover:scale-110 transition-transform duration-300`}
+            className={`flex items-center px-4 py-2 ${link.className} text-white rounded-full hover:scale-110 transition-transform duration-300`}
           >
-            {link.icon} {link.label}
+            <span className="mr-2">{link.icon}</span>
+            <span className="hidden sm:inline">{link.label}</span>
           </a>
         ))}
       </div>
